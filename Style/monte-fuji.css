@@ -1,0 +1,56 @@
+body {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.8), rgba(240, 240, 240, 0.8));
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 16px; /* Tamanho padrão da fonte para o corpo */
+}
+
+header {
+    text-align: center; /* Centraliza o título do cabeçalho */
+    margin: 20px 0; /* Espaçamento superior e inferior */
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo semi-transparente para o cabeçalho */
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+img.b {
+    border-radius: 20px;
+    max-width: 70%; /* Ajusta a largura da imagem para 70% da largura do contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Remove o espaçamento inferior da imagem */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    transition: transform 0.3s ease-in-out; /* Adiciona uma transição suave para o hover */
+}
+
+img.b:hover {
+    transform: scale(1.05); /* Leve aumento na imagem ao passar o mouse */
+}
+
+.content {
+    text-align: center; /* Centraliza o texto */
+    padding: 30px; /* Aumenta o espaçamento interno */
+    max-width: 80%; /* Limita a largura do conteúdo */
+    margin: 0 auto; /* Centraliza o conteúdo horizontalmente */
+    background-color: rgba(236, 232, 232, 0.9); /* Fundo branco com transparência */
+    border-radius: 12px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra leve para destaque */
+}
+
+h3 {
+    color: #333; /* Cor do texto do subtítulo */
+    margin-top: 20px; /* Espaçamento superior do subtítulo */
+    font-size: 22px; /* Tamanho da fonte para subtítulos */
+}
+
+p {
+    font-size: 18px; /* Tamanho da fonte para parágrafos */
+    line-height: 1.6; /* Espaçamento entre linhas */
+    color: #666; /* Cor do texto do parágrafo */
+    margin-top: 10px; /* Espaçamento superior do parágrafo */
+    text-align: justify; /* Justifica o texto para melhor apresentação */
+}
